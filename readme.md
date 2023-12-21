@@ -1,3 +1,5 @@
+My fork of pinta. I needed basically windows paint, but for linux, in order to quickly modify screenshots. But the most tool I need, rectangle, is hidden. And I can't bring it up and hide other tools. I made this fork and changed order of tools to have the tools I need at the tool panel.
+
 # Pinta - [Simple Gtk# Paint Program](http://pinta-project.com/)
 
 [![Translation status](https://hosted.weblate.org/widget/pinta/pinta/287x66-grey.png)](https://hosted.weblate.org/engage/pinta/)
