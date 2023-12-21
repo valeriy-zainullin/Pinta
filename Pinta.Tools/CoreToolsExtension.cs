@@ -46,6 +46,11 @@ public sealed class CoreToolsExtension : IExtension
 		PintaCore.PaintBrushes.AddPaintBrush (new Brushes.SplatterBrush ());
 		PintaCore.PaintBrushes.AddPaintBrush (new Brushes.SquaresBrush ());
 
+		PintaCore.Tools.AddTool (new RectangleTool (PintaCore.Services));
+		PintaCore.Tools.AddTool (new TextTool (PintaCore.Services));
+		PintaCore.Tools.AddTool (new LineCurveTool (PintaCore.Services));
+    /*
+
 		PintaCore.Tools.AddTool (new MoveSelectedTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new MoveSelectionTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new ZoomTool (PintaCore.Services));
@@ -60,14 +65,12 @@ public sealed class CoreToolsExtension : IExtension
 		PintaCore.Tools.AddTool (new PaintBucketTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new GradientTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new ColorPickerTool (PintaCore.Services));
-		PintaCore.Tools.AddTool (new TextTool (PintaCore.Services));
-		PintaCore.Tools.AddTool (new LineCurveTool (PintaCore.Services));
-		PintaCore.Tools.AddTool (new RectangleTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new RoundedRectangleTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new EllipseTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new FreeformShapeTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new CloneStampTool (PintaCore.Services));
 		PintaCore.Tools.AddTool (new RecolorTool (PintaCore.Services));
+    */
 	}
 
 	public void Uninitialize ()
